@@ -18,6 +18,6 @@ public class SessionRepositoryRequestWrapper extends HttpServletRequestWrapper {
     @Override
     public HttpSession getSession(boolean create) {
         //自作のHttpSessionをセットする
-        return new HttpSessionSpy(super.getSession(create));
+        return new HttpSessionSpy(super.getSession());
     }
 }
