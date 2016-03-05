@@ -1,4 +1,4 @@
-# override
+# custom-httpsession
 HttpSessionを拡張したクラスをHttpServletRequestWrapperで登録しています。
 
 # run
